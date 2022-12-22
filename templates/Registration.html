@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Genesis Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="urembo.css">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+
+  </head>
+  <body style="background: url(assets/img/hero-bg.png)">
+    <div class="main-block">
+      <h1>Registration</h1>
+      <form action="index.html" id="contactForm">
+            <div class="alert">Your message sent</div>
+
+            <div class="inputBox">
+                <input type="email" id="email" placeholder="Email Address" required/>
+            </div>
+
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="UserName" required/>
+            </div>
+
+            <div class="inputBox">
+                <input type="password" id="password" placeholder="Password" required/>
+            </div>
+
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+                <a href="LogIn.html">Already Have An Account? LogIn</a>
+            </div>
+        </form>
+    </div>
+  </body>
+
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
+</html>
